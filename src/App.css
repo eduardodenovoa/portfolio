@@ -7,7 +7,7 @@ nav{
   display: flex;
   justify-content: space-between;
   max-height: 15vh;
-  background-color: rgb(28, 36, 36);
+  background-color: #242424;
 }
 nav div{
   display: flex;
@@ -16,10 +16,13 @@ nav div{
   flex-wrap: nowrap;
 }
 nav div a{
-  margin-right: 10%;
+  margin-right: 30%;
   color: inherit;
   text-decoration: none;
   font-size: 4vh;
+}
+nav p{
+  font-size: 4vh
 }
 nav div a:hover{
   background-size: 0 3px, 100% 3px;
@@ -53,7 +56,11 @@ nav div a{
 .logo.react:hover {
   filter: drop-shadow(0 0 2em #61dafbaa);
 }
-
+div.bg-img{
+  background-color: #f2e2e4aa;
+  height: 100vh;
+  width: 100%;
+}
 
 @keyframes logo-spin {
   from {
